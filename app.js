@@ -111,3 +111,4 @@ function loadTasks() {
   const raw = localStorage.getItem("tasks");
   return raw ? JSON.parse(raw) : [];
 }
+
